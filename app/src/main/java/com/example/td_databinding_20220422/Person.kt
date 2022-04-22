@@ -5,6 +5,4 @@ data class Person(
     var name : String,
     var firstname : String,
     var age : Int
-
-
 )
