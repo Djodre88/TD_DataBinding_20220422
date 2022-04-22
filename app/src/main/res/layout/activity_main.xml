@@ -9,10 +9,16 @@
 <!--            type="com.example.td_databinding_20220422.Person" />-->
 <!--    </data>-->
 
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="person"-->
+<!--            type="com.example.td_databinding_20220422.ObservablePerson" />-->
+<!--    </data>-->
+
     <data>
         <variable
             name="person"
-            type="com.example.td_databinding_20220422.ObservablePerson" />
+            type="com.example.td_databinding_20220422.PersonViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

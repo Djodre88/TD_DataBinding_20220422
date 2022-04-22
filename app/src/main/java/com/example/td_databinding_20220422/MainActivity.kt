@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ObservableField
 import androidx.databinding.ObservableInt
+import androidx.lifecycle.ViewModelProvider
 import com.example.td_databinding_20220422.databinding.ActivityMainBinding
 
 
@@ -31,8 +32,11 @@ class MainActivity : AppCompatActivity() {
 //
 //        binding.person = person1
 
-        binding.person = observablePerson
+//        binding.person = observablePerson
 
+        val viewModel = ViewModelProvider(this).get(PersonViewModel::class.java)
+        binding.person = viewModel
+        binding.lifecycleOwner = this
 
     }
 }
