@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.td_databinding_20220422.databinding.ActivityMainBinding
 
 // => 1er challenge : Two ways data binding. Regarder la doc
-// OBJECTIF :   ajouter un slider qui permet de modifier la valeur de l'âge
+// OBJECTIF :   ajouter un slider (SeekBar) qui permet de modifier la valeur de l'âge
 //              et va mettre à jour l'observable ou le ViewModel
 //              et donc va afficher la valeur de l'âge modifié
 
